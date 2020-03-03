@@ -12,6 +12,14 @@ import LoginComponent from './Components/Login/LoginComponent';
 function App() {
   return (
     <Router>
+      <ul>
+        <li>
+          <Link to='/'>Login</Link>
+        </li>
+        <li>
+          <Link to='/login'>Logout</Link>
+        </li>
+      </ul>
       <Switch>
         <Route path='/' exact>
           <DashBoardComponent />
